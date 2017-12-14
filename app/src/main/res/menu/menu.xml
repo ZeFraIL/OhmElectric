@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fraiman.zeev.ohmelectric">
+    <item
+        android:id="@+id/back"
+        android:orderInCategory="100"
+        android:title="Back"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/credit"
+        android:orderInCategory="100"
+        android:title="Credits"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/guide"
+        android:orderInCategory="100"
+        android:title="Guide"
+        app:showAsAction="never" />
+</menu>
